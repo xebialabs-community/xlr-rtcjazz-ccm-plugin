@@ -1,0 +1,174 @@
+{
+    "rtc_cm:TFSChangeSetID": "",
+    "calm:affectedByDefect": [],
+    "rtc_cm:com.ibm.team.enterprise.package.linktype.packageBuildResult.packageBuildResult": [],
+    "calm:blocksTestExecutionRecord": [],
+    "rtc_cm:TestEnum": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/TestEnum\/TestEnum.literal.l1"
+    },
+    "dc:description": "amit's description",
+    "rtc_cm:com.ibm.team.workitem.attribute.performanceTest": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/checklistItemStatus\/checklistItemStatus.literal.l5"
+    },
+    "rtc_cm:com.ibm.team.workitem.linktype.duplicateworkitem.duplicates": [],
+    "oslc_pl:schedule": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/workitems\/_IGnd8P2_EeiFnpGGc4js6g\/schedule"
+    },
+    "oslc_cm:priority": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/priority\/priority.literal.l1"
+    },
+    "rtc_cm:progressTracking": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/workitems\/_IGnd8P2_EeiFnpGGc4js6g\/progressTracking"
+    },
+    "rtc_cm:resolved": null,
+    "rtc_cm:timeSpent": null,
+    "calm:relatedRequirement": [],
+    "rtc_cm:com.ibm.team.connector.scm.common.linkType.tracksUcmObject.t": [],
+    "rtc_cm:com.ibm.team.filesystem.workitems.change_set.com.ibm.team.scm.ChangeSet": [],
+    "rtc_cm:com.ibm.team.workitem.linktype.schedulePredecessor.successor": [],
+    "rtc_cm:MVP": false,
+    "rtc_cm:com.ibm.team.workitem.linktype.parentworkitem.children": [],
+    "rtc_cm:com.ibm.team.build.linktype.reportedWorkItems.com.ibm.team.build.common.link.reportedAgainstBuilds": [],
+    "rtc_cm:com.ibm.team.enterprise.promotion.linktype.failedChangeSets.failedChangeSets": [],
+    "rtc_cm:com.ibm.team.apt.attribute.planitem.blocked": false,
+    "rtc_cm:com.ibm.team.workitem.linktype.blocksworkitem.blocks": [],
+    "rtc_cm:com.ibm.team.workitem.linktype.relatedworkitem.related": [],
+    "rtc_cm:timeSheet": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/workitems\/_IGnd8P2_EeiFnpGGc4js6g\/rtc_cm:timeSheet"
+    },
+    "rtc_cm:com.ibm.team.workitem.linktype.resolvesworkitem.resolves": [],
+    "rtc_cm:tfsstory": "",
+    "calm:implementsRequirement": [],
+    "rtc_cm:com.ibm.team.workitem.attribute.safeWorkType": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/safeWorkType\/safeWorkType.literal.l2"
+    },
+    "rtc_cm:StoryKind": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/StoryKind\/StoryKind.literal.l2"
+    },
+    "rtc_cm:com.ibm.team.workitem.attribute.acceptanceTest": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/checklistItemStatus\/checklistItemStatus.literal.l5"
+    },
+    "rtc_cm:com.ibm.team.workitem.linktype.duplicateworkitem.duplicateOf": [],
+    "rtc_cm:com.ibm.team.workitem.linktype.textualReference.textuallyReferenced": [],
+    "rtc_cm:plannedFor": null,
+    "dc:modified": "2018-12-12T18:07:23.096Z",
+    "rtc_cm:estimate": null,
+    "rtc_cm:com.ibm.team.workitem.linktype.relatedartifact.relatedArtifact": [],
+    "rtc_cm:filedAgainst": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/resource\/itemOid\/com.ibm.team.workitem.Category\/_RoK-wPJxEeiTkd5TZ1OBVQ"
+    },
+    "rtc_cm:resolvedBy": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/jts\/users\/unassigned"
+    },
+    "calm:affectsPlanItem": [],
+    "rtc_cm:com.ibm.team.workitem.linktype.blocksworkitem.dependsOn": [],
+    "rtc_cm:archived": false,
+    "rtc_cm:resolution": null,
+    "rtc_cm:com.ibm.team.enterprise.promotion.linktype.promotedChangeSets.promotedChangeSets": [],
+    "rtc_cm:com.ibm.team.enterprise.promotion.linktype.promotionBuildResult.promotionBuildResult": [],
+    "rtc_cm:teamArea": null,
+    "rtc_cm:correctedEstimate": null,
+    "rtc_cm:com.ibm.team.workitem.attribute.storyPointsNumeric": 0,
+    "rtc_cm:com.ibm.team.workitem.linktype.schedulePredecessor.predecessor": [],
+    "rtc_cm:com.ibm.team.workitem.attribute.documentation": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/checklistItemStatus\/checklistItemStatus.literal.l5"
+    },
+    "calm:affectsExecutionResult": [],
+    "rtc_cm:approvalTasks": null,
+    "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/resource\/itemName\/com.ibm.team.workitem.WorkItem\/179863",
+    "rtc_cm:com.ibm.team.enterprise.deployment.linktype.deploymentBuildResult.packageBuildResult": [],
+    "rtc_cm:ownedBy": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/jts\/users\/unassigned"
+    },
+    "rtc_cm:modifiedBy": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/jts\/users\/N346883"
+    },
+    "rtc_cm:com.ibm.team.workitem.attribute.uxDesign": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/checklistItemStatus\/checklistItemStatus.literal.l5"
+    },
+    "rtc_cm:com.ibm.team.enterprise.promotion.linktype.resultWorkItem.promoted": [],
+    "rtc_cm:com.ibm.team.workitem.linktype.resolvesworkitem.resolvedBy": [],
+    "rtc_cm:com.ibm.team.workitem.linktype.copiedworkitem.copies": [],
+    "calm:tracksChanges": [],
+    "rtc_cm:com.ibm.team.connector.scm.common.linkType.importerDependency.t": [],
+    "rtc_cm:state": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/workflows\/_D6My4PJxEeiTkd5TZ1OBVQ\/states\/com.ibm.team.apt.storyWorkflow\/com.ibm.team.apt.storyWorkflow.state.new"
+    },
+    "rtc_cm:com.ibm.team.enterprise.deployment.linktype.deploymentDefinition.packageDefinition": [],
+    "rtc_cm:com.ibm.team.workitem.linktype.attachment.attachment": [],
+    "calm:relatedTestPlan": [],
+    "dc:identifier": 179863,
+    "calm:relatedTestScript": [],
+    "oslc_cm:relatedChangeManagement": [],
+    "rtc_cm:com.ibm.team.connector.ccbridge.common.act2wi.s": [],
+    "rtc_cm:com.ibm.team.enterprise.promotion.linktype.gapChangeSets.gapChangeSets": [],
+    "oslc_cm:trackedWorkItem": [],
+    "rtc_cm:com.ibm.team.apt.attribute.acceptance": "",
+    "oslc_cm:tracksWorkItem": [],
+    "rtc_cm:com.ibm.team.build.linktype.includedPackages.com.ibm.team.build.common.link.includedInPackages": [],
+    "calm:testedByTestCase": [],
+    "rtc_cm:subscribers": [
+        {
+            "rdf:resource": "https:\/\/dev2developer.aetna.com\/jts\/users\/N346883"
+        }
+    ],
+    "rtc_cm:tfs.story": 0,
+    "calm:elaboratedByArchitectureElement": [],
+    "rtc_cm:com.ibm.team.build.linktype.includedWorkItems.com.ibm.team.build.common.link.includedInBuilds": [],
+    "rtc_cm:Application": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/Application\/Application.literal.l1"
+    },
+    "dc:title": "test story item",
+    "rtc_cm:startDate": null,
+    "rtc_cm:com.ibm.team.workitem.attribute.safeEnablerType": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/safeEnablerType\/safeEnablerType.literal.l4"
+    },
+    "rtc_cm:com.ibm.team.enterprise.promotion.linktype.notPromotedChangeSets.notPromotedChangeSets": [],
+    "rtc_cm:due": null,
+    "rtc_cm:com.ibm.team.enterprise.promotion.linktype.promotionDefinition.promotionDefinition": [],
+    "rtc_cm:com.ibm.team.enterprise.promotion.linktype.resultWorkItem.result": [],
+    "rtc_cm:com.ibm.team.scm.svn.linkType.workItem.s": [],
+    "rtc_cm:foundIn": null,
+    "calm:tracksRequirement": [],
+    "rtc_cm:com.ibm.team.connector.ccbridge.common.ver2wi.s": [],
+    "rtc_cm:com.ibm.team.workitem.attribute.checklistNotes": "",
+    "rtc_cm:comments": [
+        {
+            "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/workitems\/_IGnd8P2_EeiFnpGGc4js6g\/rtc_cm:comments\/0"
+        }
+    ],
+    "rtc_cm:com.ibm.team.enterprise.promotion.linktype.promotedBuildMaps.promotedBuildMaps": [],
+    "dc:type": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/types\/_D6My4PJxEeiTkd5TZ1OBVQ\/com.ibm.team.apt.workItemType.story"
+    },
+    "rtc_cm:com.ibm.team.workitem.linktype.parentworkitem.parent": [],
+    "calm:relatedTestSuite": [],
+    "dc:subject": "",
+    "rtc_cm:TestEnum120318": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/TestEnum120318\/TestEnum120318.literal.l1"
+    },
+    "dc:created": "2018-12-12T03:36:56.419Z",
+    "rtc_cm:com.ibm.team.enterprise.packaging.linktype.resultWorkItem.promoted": [],
+    "rtc_cm:com.ibm.team.git.workitem.linktype.gitCommit.gitcommit": [],
+    "rtc_cm:projectArea": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/projectareas\/_D6My4PJxEeiTkd5TZ1OBVQ"
+    },
+    "calm:relatedExecutionRecord": [],
+    "oslc_cm:severity": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/severity\/severity.literal.l1"
+    },
+    "rtc_cm:com.ibm.team.workitem.linktype.copiedworkitem.copiedFrom": [],
+    "dc:creator": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/jts\/users\/N346883"
+    },
+    "rtc_cm:com.ibm.team.enterprise.package.linktype.packageDefinition.packageDefinition": [],
+    "rtc_cm:com.ibm.team.apt.attribute.complexity": {
+        "rdf:resource": "https:\/\/dev2developer.aetna.com\/ccm\/oslc\/enumerations\/_D6My4PJxEeiTkd5TZ1OBVQ\/complexity\/0"
+    },
+    "rtc_cm:com.ibm.team.apt.attribute.planitem.blockedReason": "",
+    "rtc_cm:contextId": "_D6My4PJxEeiTkd5TZ1OBVQ",
+    "rtc_cm:approvals": null,
+    "rtc_cm:com.ibm.team.enterprise.packaging.linktype.resultWorkItem.result": [],
+    "rtc_cm:com.ibm.team.build.linktype.includedDeployments.com.ibm.team.build.common.link.includedInDeployment": [],
+    "calm:relatedTestCase": []
+}

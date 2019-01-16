@@ -1,0 +1,575 @@
+{
+    "_:5d767d90_167cca53697_-6800": {
+        "http://purl.org/dc/terms/type": [
+            {
+                "type": "uri",
+                "value": "http://jazz.net/ns/scm#"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "type": "literal",
+                "value": "TRS 2.0 for RTC SCM Link Resources"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/core/trs#TrackedResourceSet"
+            }
+        ],
+        "http://open-services.net/ns/core#domain": [
+            {
+                "type": "uri",
+                "value": "http://jazz.net/ns/scm#"
+            }
+        ],
+        "http://open-services.net/ns/core/trs#trackedResourceSet": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/rtcoslc/scm/cslink/trs"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "type": "literal",
+                "value": "TRS 2.0 feed for SCM link resources in RTC"
+            }
+        ]
+    },
+    "http://localhost:5000/ccm/rootservices": {
+        "http://jazz.net/xmlns/prod/jazz/discovery/1.0/oslcCatalogs": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/oslc/workitems/catalog"
+            },
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/oslc-scm/catalog"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/setupWizardDescriptor": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/service/com.ibm.team.repository.service.internal.setup.ISetupWizardDescriptorService"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/search": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/search"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/dashboard/1.0/dashboards": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/dashboards"
+            }
+        ],
+        "http://jazz.net/ns/ui#widgetCatalog": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/jfs/WidgetCatalog"
+            }
+        ],
+        "http://open-services.net/ns/core#publisher": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/application-about"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jtp/0.6/processDescriptions": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process-authoring/descriptions"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/jauthIssueTokenUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/jauth-issue-token"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/discovery/1.0/viewletServiceRoot": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/history": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/history"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/users": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/jts/users"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/discovery/1.0/infocenterRoot": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/clmhelp"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jtp/0.6/defaultPracticeLibraryUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process-authoring/libraries/shared"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/discovery/1.0/discovery": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/discovery"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/storage": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/storage"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/baselines": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/baselines"
+            }
+        ],
+        "http://open-services.net/xmlns/cm/1.0/cmServiceProviders": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/oslc/workitems/catalog"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/process/1.0/manageProjectAreas": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process/manageProjectAreas"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/rtc/cm/1.0/trackedResourceSetProvider": [
+            {
+                "type": "bnode",
+                "value": "_:5d767d90_167cca53697_-6804"
+            },
+            {
+                "type": "bnode",
+                "value": "_:5d767d90_167cca53697_-6802"
+            },
+            {
+                "type": "bnode",
+                "value": "_:5d767d90_167cca53697_-6800"
+            },
+            {
+                "type": "bnode",
+                "value": "_:5d767d90_167cca53697_-6803"
+            },
+            {
+                "type": "bnode",
+                "value": "_:5d767d90_167cca53697_-6801"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/discovery/1.0/friends": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/friends"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jtp/0.6/file": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process-authoring/file"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/process/0.6/projectAreas": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process/project-areas"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/process/0.6/processSecurity": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process-security"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/currentUser": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/whoami"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/oauthRequestTokenUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/oauth-request-token"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/serverRenameStatus": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/appServerRenameStatus"
+            }
+        ],
+        "http://open-services.net/ns/config#cmServiceProviders": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/rtcoslc/catalog"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/changes": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/changes"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/jauthRevokeTokenUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/jauth-revoke-token"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/oauthDomain": [
+            {
+                "type": "literal",
+                "value": "http://localhost:5000/ccm"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/process/1.0/manageProcessTemplates": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process/manageProcessTemplates"
+            }
+        ],
+       "http://jazz.net/xmlns/prod/jazz/discovery/1.0/registration": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/service/com.ibm.team.repository.service.internal.setup.IRegistrationHandlerService"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/discovery/1.0/viewletWebUIRoot": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "type": "literal",
+                "value": "Change and Configuration Management",
+                "lang": "en"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/oauthUserAuthorizationUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/oauth-authorize"
+            }
+        ],
+        "http://open-services.net/xmlns/scm/1.0/scmServiceProviders": [
+           {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/oslc-scm/catalog"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/jauthCheckAuthUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/jauth-check-auth"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jtp/0.6/license": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process-authoring/license"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/oauthApprovalModuleUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/_ajax-modules/com.ibm.team.repository.AuthorizeOAuth"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/process/0.6/processAbout": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process-about"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/jauthCheckTokenUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/jauth-check-token"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/oauthAccessTokenUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/oauth-access-token"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/jauthProxyUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/jauth-proxy"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/discovery/1.0/jsaSsoEnabled": [
+            {
+                "type": "literal",
+                "value": "false"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/oauthRealmName": [
+            {
+                "type": "literal",
+                "value": "Jazz"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jtp/0.6/practices": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process-authoring/practices"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/process/0.6/processTemplates": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process/templates"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/query": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/query"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/bulkOperations": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/bulk"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/adminWebUI": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/admin"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/indexing": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/indexing"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jtp/0.6/associations": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process-authoring/associations"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/mailer": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/mailer"
+            }
+        ],
+        "http://jazz.net/xmlns/prod/jazz/jfs/1.0/oauthRequestConsumerKeyUrl": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/oauth-request-consumer"
+            }
+        ]
+    },
+    "_:5d767d90_167cca53697_-6803": {
+        "http://purl.org/dc/terms/type": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/cm#"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "type": "literal",
+                "value": "TRS 2.0 for RTC Resources"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/core/trs#TrackedResourceSet"
+            }
+        ],
+        "http://open-services.net/ns/core#domain": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/config#"
+            },
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/cm#"
+            }
+        ],
+        "http://open-services.net/ns/core/trs#trackedResourceSet": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/oslc/workitems/trs2"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "type": "literal",
+                "value": "TRS 2.0 feed for RTC resources"
+            }
+        ]
+    },
+    "http://localhost:5000/ccm/oslc/workitems/catalog": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/core#ServiceProviderCatalog"
+            }
+        ],
+        "http://open-services.net/ns/core#domain": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/cm#"
+            }
+        ]
+    },
+    "_:5d767d90_167cca53697_-6801": {
+        "http://purl.org/dc/terms/type": [
+            {
+                "type": "uri",
+                "value": "http://jazz.net/ns/scm#"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "type": "literal",
+                "value": "TRS 2.0 for RTC SCM Resources"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/core/trs#TrackedResourceSet"
+            }
+        ],
+        "http://open-services.net/ns/core#domain": [
+            {
+                "type": "uri",
+                "value": "http://jazz.net/ns/scm#"
+            }
+        ],
+        "http://open-services.net/ns/core/trs#trackedResourceSet": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/rtcoslc/scm/reportable/trs/cs"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "type": "literal",
+                "value": "TRS 2.0 feed for SCM resources in RTC"
+            }
+        ]
+    },
+    "_:5d767d90_167cca53697_-6804": {
+        "http://purl.org/dc/terms/type": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/cm#"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "type": "literal",
+                "value": "TRS 1.0 for RTC Resources"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "type": "uri",
+                "value": "http://jazz.net/ns/trs#TrackedResourceSetProvider"
+            }
+        ],
+        "http://open-services.net/ns/core#domain": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/config#"
+            },
+            {
+               "type": "uri",
+                "value": "http://open-services.net/ns/cm#"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "type": "literal",
+                "value": "TRS 1.0 feed for RTC resources"
+            }
+        ],
+        "http://jazz.net/ns/trs#trackedResourceSet": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/oslc/workitems/trs"
+            }
+        ]
+    },
+    "http://localhost:5000/ccm/oslc-scm/catalog": {
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/core#ServiceProviderCatalog"
+            }
+        ],
+        "http://open-services.net/ns/core#domain": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/scm#"
+            }
+        ]
+    },
+    "_:5d767d90_167cca53697_-6802": {
+        "http://purl.org/dc/terms/type": [
+            {
+                "type": "uri",
+                "value": "http://jazz.net/ns/process#"
+            }
+        ],
+        "http://purl.org/dc/terms/title": [
+            {
+                "type": "literal",
+                "value": "TRS 2.0 for RTC Process Resources"
+            }
+        ],
+        "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+            {
+                "type": "uri",
+                "value": "http://open-services.net/ns/core/trs#TrackedResourceSet"
+            }
+        ],
+        "http://open-services.net/ns/core#domain": [
+            {
+                "type": "uri",
+                "value": "http://jazz.net/ns/process#"
+            }
+        ],
+        "http://open-services.net/ns/core/trs#trackedResourceSet": [
+            {
+                "type": "uri",
+                "value": "http://localhost:5000/ccm/process-trs2"
+            }
+        ],
+        "http://purl.org/dc/terms/description": [
+            {
+                "type": "literal",
+                "value": "TRS 2.0 feed for process resources in RTC"
+            }
+        ]
+    }
+}

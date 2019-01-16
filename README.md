@@ -1,4 +1,4 @@
-# XL Release RTC-CCM Plugin
+# XL Release Plugin for IBM Rational Team Center #
 
 [![Build Status][xlr-rtc-ccm-plugin-travis-image]][xlr-rtc-ccm-plugin-travis-url]
 [![License: MIT][xlr-rtc-ccm-plugin-license-image]][xlr-rtc-ccm-plugin-license-url]
@@ -18,7 +18,7 @@ See the **XL Release Reference Manual** for background information on XL Release
 
 * **Requirements**
   * **XL Release** 7.5.0+
-  * **IBM rtc-ccm** 6.0+
+  * **IBM RTC** 6.0.3+
 
 # Installation #
 
@@ -41,7 +41,7 @@ Enter a descriptive name for this server.
 
 ### URL ###
 
-Enter the full URL to the server.  Include protocol (http or https) and port number if applicable.  Note that this needs to be the full path to the Manager Service.  For example: http://<server>/DistributionServerService/ManagerService.svc
+Enter the full URL to the server.  Include protocol (http or https) and port number if applicable.
 
 ### Username ###
 
@@ -84,7 +84,7 @@ Once the task is complete you will see output like these shown below...
 Build and package the plugins with...
 
 ```bash
-./gradlew XLPlugin
+./gradlew assemble
 ```
 
 Run unit tests with...

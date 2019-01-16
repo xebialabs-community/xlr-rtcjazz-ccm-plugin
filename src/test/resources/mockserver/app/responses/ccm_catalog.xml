@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<oslc_disc:ServiceProviderCatalog rdf:about="http://localhost:5000/ccm/oslc-scm/catalog.xml" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:jp="http://jazz.net/xmlns/prod/jazz/process/1.0/" xmlns:oslc_disc="http://open-services.net/xmlns/discovery/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <dcterms:title>Project Areas</dcterms:title>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Corporate</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_5CY30PL3EeKLebfIf6DXXw"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_5CY30PL3EeKLebfIf6DXXw"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_5CY30PL3EeKLebfIf6DXXw/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Dev Aetna Methodology Review and Evaluation – Child Project- ccm</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_87i5kJmBEeegRqQ5_-1ZuQ"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_87i5kJmBEeegRqQ5_-1ZuQ"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_87i5kJmBEeegRqQ5_-1ZuQ/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>XL Release Integration</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_D6My4PJxEeiTkd5TZ1OBVQ"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_D6My4PJxEeiTkd5TZ1OBVQ"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_D6My4PJxEeiTkd5TZ1OBVQ/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Plan Sponsor - Pilot</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_DP0zcBIeEemYBMyWfBPJ8g"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_DP0zcBIeEemYBMyWfBPJ8g"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_DP0zcBIeEemYBMyWfBPJ8g/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Group Insurance</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_DRd_cZlREeG94MTks9yPfA"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_DRd_cZlREeG94MTks9yPfA"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_DRd_cZlREeG94MTks9yPfA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Pharmacy</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_F55e17mqEeKrSvLoFlqGKA"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_F55e17mqEeKrSvLoFlqGKA"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_F55e17mqEeKrSvLoFlqGKA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Plan Sponsor</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_FRutlXepEeKVJbzOfrNq3A"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_FRutlXepEeKVJbzOfrNq3A"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_FRutlXepEeKVJbzOfrNq3A/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>HCR Exchanges</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_KxOsAO1YEeGazY5P4Q6k7Q"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_KxOsAO1YEeGazY5P4Q6k7Q"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_KxOsAO1YEeGazY5P4Q6k7Q/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Demo - Channel Management</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_P8cCUEklEeGFHKbx9Iju5w"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_P8cCUEklEeGFHKbx9Iju5w"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_P8cCUEklEeGFHKbx9Iju5w/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>EDF Configuration as of Feb 2018 - for process review</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_QqUjUAzbEeiQgb8qlgYKNA"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_QqUjUAzbEeiQgb8qlgYKNA"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_QqUjUAzbEeiQgb8qlgYKNA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Recycle Bin</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_TBIaMM0uEeG8MNlGL3l5wA"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_TBIaMM0uEeG8MNlGL3l5wA"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_TBIaMM0uEeG8MNlGL3l5wA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Network and Provider</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_VxT8VLQsEeKrSvLoFlqGKA"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_VxT8VLQsEeKrSvLoFlqGKA"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_VxT8VLQsEeKrSvLoFlqGKA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>ITP3 Planner</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_X8yvQF8jEeKl1e_OwyxfdA"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_X8yvQF8jEeKl1e_OwyxfdA"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_X8yvQF8jEeKl1e_OwyxfdA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Waterfall Sandbox-PPM</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_dejIcNbtEeOaRaaVyCJEmA"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_dejIcNbtEeOaRaaVyCJEmA"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_dejIcNbtEeOaRaaVyCJEmA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>SAFe 4.0 Process (Program) - ccm - Out-Of-Box Process - 6.0.3</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_g4V70IjeEee5gfgUTES5YQ"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_g4V70IjeEee5gfgUTES5YQ"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_g4V70IjeEee5gfgUTES5YQ/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Quoting and Rating - Pilot (ccm)</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_hVZfsP5xEeiFnpGGc4js6g"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_hVZfsP5xEeiFnpGGc4js6g"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_hVZfsP5xEeiFnpGGc4js6g/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Dev Aetna Methodology Process (Program) – Master Project- ccm</dcterms:title>
+           <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_iRuwEJSkEee5gfgUTES5YQ"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_iRuwEJSkEee5gfgUTES5YQ"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_iRuwEJSkEee5gfgUTES5YQ/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Member</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_jNN0dHeqEeKVJbzOfrNq3A"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_jNN0dHeqEeKVJbzOfrNq3A"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_jNN0dHeqEeKVJbzOfrNq3A/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>HEALTH CARE REFORM</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_meWfVDZrEeOupbSLl2KZ-Q"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_meWfVDZrEeOupbSLl2KZ-Q"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_meWfVDZrEeOupbSLl2KZ-Q/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Product Delivery - Pilot (ccm)</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_p_7LYP5nEeiFnpGGc4js6g"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_p_7LYP5nEeiFnpGGc4js6g"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_p_7LYP5nEeiFnpGGc4js6g/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Channel Management – Do NOT Use (Agile CoE ADD-V)</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_s3M-BLsfEeG8L9lGL3l5wA"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_s3M-BLsfEeG8L9lGL3l5wA"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_s3M-BLsfEeG8L9lGL3l5wA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Quoting and Rating</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_uD0gNmyqEeK1j6rDa8YiMA"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_uD0gNmyqEeK1j6rDa8YiMA"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_uD0gNmyqEeK1j6rDa8YiMA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>RTC 5.0.2 Test Project Area</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_w1ldJRkGEeWDiM8aLc-GlA"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_w1ldJRkGEeWDiM8aLc-GlA"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_w1ldJRkGEeWDiM8aLc-GlA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>MCOE</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_xFtSZVJiEeWVnofnG7Ec4Q"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_xFtSZVJiEeWVnofnG7Ec4Q"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_xFtSZVJiEeWVnofnG7Ec4Q/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>EA Planner</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_yFDlEVy7EeGwrdAAo5kjbg"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_yFDlEVy7EeGwrdAAo5kjbg"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_yFDlEVy7EeGwrdAAo5kjbg/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dcterms:title>Claims</dcterms:title>
+            <oslc_disc:details rdf:resource="http://localhost:5000/ccm/process/project-areas/_zsD-hANtEeOJKMku0ucf0Q"/>
+            <oslc_disc:services rdf:resource="http://localhost:5000/ccm/rtcoslc/oslc_scm/scm/serviceprovider/project-area/_zsD-hANtEeOJKMku0ucf0Q"/>
+            <jp:consumerRegistry rdf:resource="http://localhost:5000/ccm/process/project-areas/_zsD-hANtEeOJKMku0ucf0Q/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+</oslc_disc:ServiceProviderCatalog>
