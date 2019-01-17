@@ -12,8 +12,10 @@
        #   Server Configuration
        #######################################################################################################################
     -->
-    <type type="rtcjazz_ccm.Server" extends="configuration.HttpConnection">
+    <type type="rtcjazz-ccm.Server" extends="configuration.HttpConnection">
         <property name="scriptLocation" required="false" hidden="true" default="rtcjazz/control/check_connection.py" />
+        <property name="username" required="false" description="Optional username override" />
+        <property name="password" required="false" description="Optional password override"  password="true" />
     </type>
 
     <!--
@@ -21,22 +23,28 @@
         #  Create Work Item
         #######################################################################################################################
     -->
-    <type type="rtcjazz_ccm.Execute" extends="xlrelease.PythonScript">
+    <type type="rtcjazz-ccm.CreateWorkItem" extends="xlrelease.PythonScript">
         <property name="iconLocation" hidden="true" default="rtcjazz-ccm-icon.png"/>
-        <property name="taskColor" hidden="true" default="#b7deed" />
+        <property name="taskColor" hidden="true" default="#b7d7ed" />
         <property name="scriptLocation" required="false" hidden="true" default="rtcjazz/control/create_workitem.py" />
 
-        <property name="server" category="input" label="Server" referenced-type="rtcjazz_ccm.Server" kind="ci"/>
+        <property name="server" category="input" label="Server" referenced-type="rtcjazz-ccm.Server" kind="ci"/>
 
         <property name="project_area" category="input" label="Project Area" kind="string" description="Project area for work item" required="true"/>
-        <property name="workitem_type" category="input" label="Work Item Type" kind="string" description="Type of work item" required="true"/>
-        <property name="workitem_properties" category="input" label="Work Item Properties" kind="map_string_string" description="Properties of work item" required="false"/>        
+        <property name="workitem_type" category="input" label="Type" kind="enum" description="Type of work item" required="true">
+            <!-- Note: these must match the workitem uri map in RtcClient.py -->
+            <enum-values>
+                <value>Defect</value>
+                <value>Issue</value>
+                <value>Risk</value>
+                <value>Task</value>
+            </enum-values>
+        </property>
 
-        <property name="workitem_ignore_errors" category="input" label="Ignore Errors" kind="boolean" description="Ignore errors" required="false"/>
-        <property name="workitem_suppress_email_notifications" category="input" label="Suppress Notifications" kind="boolean" description="Suppress e-mail notifications." required="false"/>
-        <property name="workitem_enable_delete_attachments" category="input" label="Enable Delete Attachments" kind="boolean" description="Enable the ability to delete attachments." required="false"/>
-        <property name="workitem_enable_delete_approvals" category="input" label="Enable Delete Approvals" kind="boolean" description="Enable the ability to delete approvals." required="false"/>
-        <property name="workitem_enforce_size_limits" category="input" label="Enforce Size Limits" kind="boolean" description="Enforce size limits on this work item." required="false"/>
+        <property name="title" category="input" label="Title" kind="string" description="Title for workitem" required="true" />
+        <property name="description" category="input" label="Description" kind="string" size="medium" description="Description for workitem" required="true" />
+
+        <property name="workitem_properties" category="input" label="Other Properties" kind="map_string_string" description="Additional work item properties" required="false"/>        
 
         <property name="workitem_id" category="output" label="Work Item ID" kind="string" description="ID of created work item" required="false"/>
     </type>
@@ -46,22 +54,31 @@
         #  Update Work Item
         #######################################################################################################################
     -->
-    <type type="rtcjazz_ccm.Execute" extends="xlrelease.PythonScript">
+    <type type="rtcjazz-ccm.UpdateWorkItem" extends="xlrelease.PythonScript">
         <property name="iconLocation" hidden="true" default="rtcjazz-ccm-icon.png"/>
-        <property name="taskColor" hidden="true" default="#b7deed" />
+        <property name="taskColor" hidden="true" default="#b7c7ed" />
         <property name="scriptLocation" required="false" hidden="true" default="rtcjazz/control/update_workitem.py" />
 
-        <property name="server" category="input" label="Server" referenced-type="rtcjazz_ccm.Server" kind="ci"/>
+        <property name="server" category="input" label="Server" referenced-type="rtcjazz-ccm.Server" kind="ci"/>
 
-        <property name="project_area" category="input" label="Project Area" kind="string" description="Project area for work item" required="true"/>
         <property name="workitem_id" category="input" label="Work Item ID" kind="string" description="ID of work item" required="true"/>
         <property name="workitem_properties" category="input" label="Work Item Properties" kind="map_string_string" description="Properties to update on work item" required="false"/>        
+    </type>
 
-        <property name="workitem_ignore_errors" category="input" label="Ignore Errors" kind="boolean" description="Ignore errors" required="false"/>
-        <property name="workitem_suppress_email_notifications" category="input" label="Suppress Notifications" kind="boolean" description="Suppress e-mail notifications." required="false"/>
-        <property name="workitem_enable_delete_attachments" category="input" label="Enable Delete Attachments" kind="boolean" description="Enable the ability to delete attachments." required="false"/>
-        <property name="workitem_enable_delete_approvals" category="input" label="Enable Delete Approvals" kind="boolean" description="Enable the ability to delete approvals." required="false"/>
-        <property name="workitem_enforce_size_limits" category="input" label="Enforce Size Limits" kind="boolean" description="Enforce size limits on this work item." required="false"/>
+    <!--
+        #######################################################################################################################
+        #  Add Comment to Work Item
+        #######################################################################################################################
+    -->
+    <type type="rtcjazz-ccm.AddComment" extends="xlrelease.PythonScript">
+        <property name="iconLocation" hidden="true" default="rtcjazz-ccm-icon.png"/>
+        <property name="taskColor" hidden="true" default="#b7b7ed" />
+        <property name="scriptLocation" required="false" hidden="true" default="rtcjazz/control/add_comment.py" />
+
+        <property name="server" category="input" label="Server" referenced-type="rtcjazz-ccm.Server" kind="ci"/>
+
+        <property name="workitem_id" category="input" label="Work Item ID" kind="string" description="ID of work item" required="true"/>
+        <property name="comment" category="input" label="Comment" kind="string" description="Comment to add to work item" required="false"/>        
     </type>
 
 </synthetic>

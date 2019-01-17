@@ -3,17 +3,30 @@
 # This software is released under the MIT License.
 # https://opensource.org/licenses/MIT
 
-from com.xebialabs.xlrelease.plugin.rtcjazz.ccm import RtcRepository
-from com.xebialabs.xlrelease.plugin.rtcjazz.ccm import IWorkItemConstants
+# rtcjazz/control/check_connection.py
+
+from rtcjazz.core.RtcClient import RtcClient
 
 def process(task_vars):
-    container = task_vars['server']
-    client = RtcRepository.new_instance(container["url"], container["username"], container["password"])
-    
-    result = client.checkConnection()
-    print(result)
+    conf = task_vars['configuration']
 
-    return result
+    # The configuration we get here is a delegate to an underlying java class.  This is
+    # different than the 'server' we get defined in the synthetic.xml.  Convert it to
+    # look like the 'server' object.
+    server = {
+        'url': conf._delegate.getUrl(), 
+        'username': conf._delegate.getUsername(),
+        'password': conf._delegate.getPassword(), 
+        'authenticationMethod': conf._delegate.getAuthenticationMethod(), 
+        'domain': conf._delegate.getDomain(), 
+        'proxyHost': conf._delegate.getProxyHost(), 
+        'proxyPort': conf._delegate.getProxyPort(), 
+        'proxyUsername': conf._delegate.getProxyUsername(), 
+        'proxyPassword': conf._delegate.getProxyPassword()
+    }
+
+    client = RtcClient.createClient(server, server["username"], server["password"])
+    result = client.check_connection()
 
 if __name__ == '__main__' or __name__ == '__builtin__':
     process(locals())

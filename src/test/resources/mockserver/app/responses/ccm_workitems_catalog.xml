@@ -1,0 +1,216 @@
+<!-- https://dev2developer.aetna.com/ccm/oslc/workitems/catalog -->
+<?xml version="1.0" encoding="UTF-8"?>
+<oslc_disc:ServiceProviderCatalog xmlns:oslc_disc="http://open-services.net/xmlns/discovery/1.0/" rdf:about="https://dev2developer.aetna.com/ccm/oslc/workitems/catalog.xml" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+    xmlns:jfs_proc="http://jazz.net/xmlns/prod/jazz/process/1.0/" 
+    xmlns:dc="http://purl.org/dc/terms/">
+    <dc:title>Project Areas</dc:title>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Corporate</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_5CY30PL3EeKLebfIf6DXXw"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_5CY30PL3EeKLebfIf6DXXw/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_5CY30PL3EeKLebfIf6DXXw/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Dev Aetna Methodology Review and Evaluation – Child Project- ccm</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_87i5kJmBEeegRqQ5_-1ZuQ"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_87i5kJmBEeegRqQ5_-1ZuQ/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_87i5kJmBEeegRqQ5_-1ZuQ/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>XL Release Integration</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_D6My4PJxEeiTkd5TZ1OBVQ"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_D6My4PJxEeiTkd5TZ1OBVQ/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_D6My4PJxEeiTkd5TZ1OBVQ/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Plan Sponsor - Pilot</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_DP0zcBIeEemYBMyWfBPJ8g"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_DP0zcBIeEemYBMyWfBPJ8g/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_DP0zcBIeEemYBMyWfBPJ8g/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Group Insurance</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_DRd_cZlREeG94MTks9yPfA"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_DRd_cZlREeG94MTks9yPfA/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_DRd_cZlREeG94MTks9yPfA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Pharmacy</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_F55e17mqEeKrSvLoFlqGKA"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_F55e17mqEeKrSvLoFlqGKA/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_F55e17mqEeKrSvLoFlqGKA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Plan Sponsor</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_FRutlXepEeKVJbzOfrNq3A"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_FRutlXepEeKVJbzOfrNq3A/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_FRutlXepEeKVJbzOfrNq3A/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>HCR Exchanges</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_KxOsAO1YEeGazY5P4Q6k7Q"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_KxOsAO1YEeGazY5P4Q6k7Q/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_KxOsAO1YEeGazY5P4Q6k7Q/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Demo - Channel Management</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_P8cCUEklEeGFHKbx9Iju5w"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_P8cCUEklEeGFHKbx9Iju5w/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_P8cCUEklEeGFHKbx9Iju5w/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>EDF Configuration as of Feb 2018 - for process review</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_QqUjUAzbEeiQgb8qlgYKNA"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_QqUjUAzbEeiQgb8qlgYKNA/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_QqUjUAzbEeiQgb8qlgYKNA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Recycle Bin</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_TBIaMM0uEeG8MNlGL3l5wA"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_TBIaMM0uEeG8MNlGL3l5wA/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_TBIaMM0uEeG8MNlGL3l5wA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Network and Provider</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_VxT8VLQsEeKrSvLoFlqGKA"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_VxT8VLQsEeKrSvLoFlqGKA/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_VxT8VLQsEeKrSvLoFlqGKA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>ITP3 Planner</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_X8yvQF8jEeKl1e_OwyxfdA"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_X8yvQF8jEeKl1e_OwyxfdA/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_X8yvQF8jEeKl1e_OwyxfdA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Waterfall Sandbox-PPM</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_dejIcNbtEeOaRaaVyCJEmA"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_dejIcNbtEeOaRaaVyCJEmA/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_dejIcNbtEeOaRaaVyCJEmA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>SAFe 4.0 Process (Program) - ccm - Out-Of-Box Process - 6.0.3</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_g4V70IjeEee5gfgUTES5YQ"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_g4V70IjeEee5gfgUTES5YQ/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_g4V70IjeEee5gfgUTES5YQ/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Quoting and Rating - Pilot (ccm)</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_hVZfsP5xEeiFnpGGc4js6g"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_hVZfsP5xEeiFnpGGc4js6g/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_hVZfsP5xEeiFnpGGc4js6g/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Dev Aetna Methodology Process (Program) – Master Project- ccm</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_iRuwEJSkEee5gfgUTES5YQ"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_iRuwEJSkEee5gfgUTES5YQ/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_iRuwEJSkEee5gfgUTES5YQ/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Member</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_jNN0dHeqEeKVJbzOfrNq3A"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_jNN0dHeqEeKVJbzOfrNq3A/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_jNN0dHeqEeKVJbzOfrNq3A/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>HEALTH CARE REFORM</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_meWfVDZrEeOupbSLl2KZ-Q"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_meWfVDZrEeOupbSLl2KZ-Q/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_meWfVDZrEeOupbSLl2KZ-Q/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Product Delivery - Pilot (ccm)</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_p_7LYP5nEeiFnpGGc4js6g"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_p_7LYP5nEeiFnpGGc4js6g/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_p_7LYP5nEeiFnpGGc4js6g/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Channel Management – Do NOT Use (Agile CoE ADD-V)</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_s3M-BLsfEeG8L9lGL3l5wA"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_s3M-BLsfEeG8L9lGL3l5wA/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_s3M-BLsfEeG8L9lGL3l5wA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Quoting and Rating</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_uD0gNmyqEeK1j6rDa8YiMA"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_uD0gNmyqEeK1j6rDa8YiMA/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_uD0gNmyqEeK1j6rDa8YiMA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>RTC 5.0.2 Test Project Area</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_w1ldJRkGEeWDiM8aLc-GlA"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_w1ldJRkGEeWDiM8aLc-GlA/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_w1ldJRkGEeWDiM8aLc-GlA/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>MCOE</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_xFtSZVJiEeWVnofnG7Ec4Q"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_xFtSZVJiEeWVnofnG7Ec4Q/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_xFtSZVJiEeWVnofnG7Ec4Q/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>EA Planner</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_yFDlEVy7EeGwrdAAo5kjbg"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_yFDlEVy7EeGwrdAAo5kjbg/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_yFDlEVy7EeGwrdAAo5kjbg/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+    <oslc_disc:entry>
+        <oslc_disc:ServiceProvider>
+            <dc:title>Claims</dc:title>
+            <oslc_disc:details rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_zsD-hANtEeOJKMku0ucf0Q"/>
+            <oslc_disc:services rdf:resource="https://dev2developer.aetna.com/ccm/oslc/contexts/_zsD-hANtEeOJKMku0ucf0Q/workitems/services.xml"/>
+            <jfs_proc:consumerRegistry rdf:resource="https://dev2developer.aetna.com/ccm/process/project-areas/_zsD-hANtEeOJKMku0ucf0Q/links"/>
+        </oslc_disc:ServiceProvider>
+    </oslc_disc:entry>
+</oslc_disc:ServiceProviderCatalog>

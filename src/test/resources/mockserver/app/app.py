@@ -68,19 +68,43 @@ def getCcmRootservices():
 
 
 @app.route('/ccm/oslc-scm/catalog', methods=['GET'])
+@requires_auth
 def getCcmCatalog():
     return getFile("ccm_catalog.xml")
 
 
-@app.route('/ccm/oslc/workitems/_IGnd8P2_EeiFnpGGc4js6g', methods=['GET'])
-def getCcmWorkitem():
+@app.route('/ccm/oslc/workitems/<context>', methods=['GET'])
+@requires_auth
+def getCcmWorkitem(context):
     return getFile("ccm_workitem.json")
 
-https://dev2developer.aetna.com/ccm/oslc/workitems/_IGnd8P2_EeiFnpGGc4js6g/rtc_cm:comments
 
-@app.route('/ccm/oslc/workitems/_IGnd8P2_EeiFnpGGc4js6g/rtc_cm:comments', methods=['GET'])
-def getCcmWorkitemComments():
+@app.route('/ccm/oslc/workitems/<context>/rtc_cm:comments', methods=['GET'])
+@requires_auth
+def getCcmWorkitemComments(context):
     return getFile("ccm_workitem_comments.json")
+
+
+@app.route('/ccm/oslc/workitems/catalog', methods=['GET'])
+@requires_auth
+def getCcmWorkitemsCatalog():
+    return getFile("ccm_workitems_catalog.xml")
+
+
+@app.route('/ccm/oslc/contexts/<context>/workitems/services.xml', methods=['GET'])
+@requires_auth
+def getCcmContextWorkitemsServices(context):
+    if context == '_D6My4PJxEeiTkd5TZ1OBVQ':
+        return getFile("ccm_context_workitems_services_2.xml")
+    else:
+        return getFile("ccm_context_workitems_services.xml")
+
+
+@app.route('/ccm/oslc/contexts/<context>/workitems/com.ibm.team.workitem.workItemType.task', methods=['POST'])
+@requires_auth
+def getCcmCreateWorkitemTask(context):
+    print request.data
+    return getFile("ccm_create_workitem.json")
 
 
 if __name__ == '__main__':
