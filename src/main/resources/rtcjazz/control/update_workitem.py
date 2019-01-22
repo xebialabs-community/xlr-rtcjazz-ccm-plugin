@@ -14,7 +14,7 @@ def process(task_vars):
     properties = {}
     properties.update(task_vars['workitem_properties'])
 
-    result = client.update_workitem(task_vars['project_area'], task_vars['workitem_id'], properties)
+    result = client.update_workitem(task_vars['workitem_id'], properties)
     print result
     return result
 

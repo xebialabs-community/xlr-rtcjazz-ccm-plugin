@@ -32,6 +32,8 @@ WORKITEM_FACTORY_URI = {
     'Risk': WORKITEM_BASE_URI+'com.ibm.team.workitem.workItemType.risk',
     'Task': WORKITEM_BASE_URI+'com.ibm.team.workitem.workItemType.task'
 }
+WORKITEM_UPDATE_URI = '/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/${workitem_id}'
+WORKITEM_COMMENT_URI = '/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/${workitem_id}/rtc_cm:comments'
 
 logging.basicConfig(filename='log/plugin.log',
                             filemode='a',
@@ -60,16 +62,34 @@ class RtcClient(object):
         if response.getStatus() not in HTTP_SUCCESS:
             self._error('Unable to check connection', response)
 
+    # Status: gives 403, forbidden. Syntax may not be correct, see https://jazz.net/forum/questions/180335/adding-comments-using-oslc
     def add_comment(self, project_area, workitem_id, comment):
         contentType = "application/json"
         headers = {'Accept' : 'application/json', 'Content-Type' : 'application/json'}
-        url = '/ccm/oslc-scm/catalog'
+        body = {"dc:description": comment}
+        url = WORKITEM_COMMENT_URI.replace('${workitem_id}', workitem_id)
 
         response = self.httpRequest.get(url, contentType=contentType, headers=headers)
         if response.getStatus() not in HTTP_SUCCESS:
             self._error('Unable to add comment', response)
 
+    # Status: likely works
+    def update_workitem(self, workitem_id, properties):
+        contentType = "application/json"
+        headers = {'Accept' : 'application/json', 'Content-Type' : 'application/json'}
+        body = { }
+        body.update(properties)
+        url = WORKITEM_UPDATE_URI.replace('${workitem_id}', workitem_id)
 
+        self.logger.debug('update_workitem:  url: %s' % url)
+
+        response = self.httpRequest.put(url, body, contentType=contentType, headers=headers)
+        self.logger.debug('update_workitem: response: %s' % repr(response))
+        if response.getStatus() not in HTTP_SUCCESS:
+            self.logger.error('update_workitem: status: %s' % response.getStatus())
+            self._error('Unable to update workitem', response)
+
+    # Status: gives 403, forbidden.  post on draft workitems also gives 403
     def create_workitem(self, project_area, workitem_type, title, description, properties):
         context_id = self._get_context_id(project_area)
         if context_id is None:
@@ -82,7 +102,7 @@ class RtcClient(object):
         headers = {'Accept' : 'application/json', 'Content-Type' : 'application/json'}
         body = { 'dc:title': title, 'dc:description': description }
         body.update(properties)
-        url = self._build_factory_uri(context_id, workitem_type)
+        url = WORKITEM_FACTORY_URI[workitem_type].replace('${context}', context_id)
 
         self.logger.debug('create_workitem: body: %s' % body)
         self.logger.debug('create_workitem:  url: %s' % url)
@@ -129,10 +149,6 @@ class RtcClient(object):
         nfkd_form = unicodedata.normalize('NFKD', input_str)
         only_ascii = nfkd_form.encode('ASCII', 'ignore')
         return only_ascii
-
-
-    def _build_factory_uri(self, context_id, workitem_type):
-        return WORKITEM_FACTORY_URI[workitem_type].replace('${context}', context_id)
 
 
     def _error(self, text, response=None):

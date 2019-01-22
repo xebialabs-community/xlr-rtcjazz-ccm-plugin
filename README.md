@@ -12,6 +12,8 @@
 
 # Overview #
 
+**NOTE: This plugin is not fully tested and likely does not work. It is intended as a starting point for an upcoming customer implementation engagement.**
+
 This plugin provides the ability to manipulate work items in IBM RTC-CCM.
 
 See the **XL Release Reference Manual** for background information on XL Release and plugin concepts.
@@ -92,3 +94,6 @@ Run unit tests with...
 ```bash
 ./gradlew pyTest
 ```
+
+**E2E testing**
+There is a Dockerfile that runs a mock server for development and testing purposes.  It implements the URI's used by the plugin to the best of my understanding.  Start the mock server docker container (map port 5000) then you can configure your RTC Server for http://localhost:5000.

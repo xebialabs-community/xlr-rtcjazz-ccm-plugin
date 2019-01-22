@@ -73,15 +73,15 @@ def getCcmCatalog():
     return getFile("ccm_catalog.xml")
 
 
-@app.route('/ccm/oslc/workitems/<context>', methods=['GET'])
+@app.route('/ccm/oslc/workitems/<workitem_id>', methods=['GET'])
 @requires_auth
-def getCcmWorkitem(context):
+def getCcmWorkitem(workitem_id):
     return getFile("ccm_workitem.json")
 
 
-@app.route('/ccm/oslc/workitems/<context>/rtc_cm:comments', methods=['GET'])
+@app.route('/ccm/oslc/workitems/<workitem_id>/rtc_cm:comments', methods=['GET'])
 @requires_auth
-def getCcmWorkitemComments(context):
+def getCcmWorkitemComments(workitem_id):
     return getFile("ccm_workitem_comments.json")
 
 
@@ -99,10 +99,24 @@ def getCcmContextWorkitemsServices(context):
     else:
         return getFile("ccm_context_workitems_services.xml")
 
-
+# create a work item
 @app.route('/ccm/oslc/contexts/<context>/workitems/com.ibm.team.workitem.workItemType.task', methods=['POST'])
 @requires_auth
 def getCcmCreateWorkitemTask(context):
+    print request.data
+    return getFile("ccm_create_workitem.json")
+
+# update a work item
+@app.route('/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/<workitem_id>', methods=['PUT'])
+@requires_auth
+def getCcmUpdateWorkitemTask(workitem_id):
+    print request.data
+    return getFile("ccm_create_workitem.json")
+
+# add a comment
+@app.route('/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/<workitem_id>/rtc_cm:comments', methods=['POST'])
+@requires_auth
+def getCcmAddWorkItemCommentTask(workitem_id):
     print request.data
     return getFile("ccm_create_workitem.json")
 
