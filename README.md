@@ -97,3 +97,6 @@ Run unit tests with...
 
 **E2E testing**
 There is a Dockerfile that runs a mock server for development and testing purposes.  It implements the URI's used by the plugin to the best of my understanding.  Start the mock server docker container (map port 5000) then you can configure your RTC Server for http://localhost:5000.
+
+**REST POST via Browser**
+* Add header 'X-Jazz-CSRF-Prevent' and use the current JSESSIONID value as the value.

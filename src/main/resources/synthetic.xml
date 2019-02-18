@@ -46,7 +46,7 @@
 
         <property name="workitem_properties" category="input" label="Other Properties" kind="map_string_string" description="Additional work item properties" required="false"/>        
 
-        <property name="workitem_id" category="output" label="Work Item ID" kind="string" description="ID of created work item" required="false"/>
+        <property name="workitem_id" category="output" label="Work Item ID" kind="string" password="true" description="ID of created work item" required="false"/>
     </type>
 
     <!--
